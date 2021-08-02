@@ -1,0 +1,183 @@
+
+
+/*=============
+common code start
+===============*/
+body{
+    font-family:'Arvo', serif;
+    font-size:16px;
+    font-weight:400;
+    color: #010101;
+}
+/*=============
+common code start
+===============*/
+
+
+
+/*=============
+header area start
+===============*/
+header {
+    background-color: #fcdb00;
+    padding: 15px 0;
+}
+
+.logo {
+    font-family: 'Arvo', serif;
+    font-size: 31px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.logocolor{
+    color: #FFC107 !important;
+    font-weight: bold;
+    font-size: 30px !important;
+}
+.menu1{}
+.menu1 ul li a{
+     font-size:20px;
+    font-family:'Arvo', serif;
+    padding: 0 30px !important;
+    color:white !important;
+    font-weight:700 !important;
+    transition: .3sc;
+}
+.menu1 ul li:last-child a{
+    margin-right: 0px !important;
+}
+.menu1 ul li:hover a{
+    color:#FFC107 !important;
+}
+/*=============
+header area end
+===============*/
+
+
+
+
+/*=======================
+ header Slider area start
+========================*/
+.bannerimg{
+    width: 100%;
+/*    min-height: 450px;*/
+    margin-bottom:80px;
+}
+
+.carousel_height {
+    bottom: 10.25rem;
+}
+
+.img_position {
+    height: 555px;
+}
+
+.banner_heading{
+    color:#FFC107 !important;
+}
+
+.banner_p{
+    font-size:18px;
+}
+
+/*next previour button*/
+.carousel-control-prev, .carousel-control-next {
+    top: 81%;
+    width: 4%;
+
+}
+.carousel-control-next {
+    right: 54px;
+}
+
+.carousel-control-prev {
+    left: 85%;
+}
+
+/*indicator*/
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    width: 18px;
+    margin-right: 3px;
+    margin-left: 12px;
+    border-radius: 82%;
+    height: 18px;
+}
+
+.carousel-indicators {
+    bottom: 2%;
+    display: grid !important;
+    justify-content: left !important;
+    margin-right: 27% !important;
+    margin-bottom: 13rem !important;
+    margin-left: 1% !important;
+}
+
+.btn{
+    margin-right:8px;
+}
+/*=======================
+ header Slider area end
+========================*/
+
+
+
+
+
+
+
+
+
+
+/*=============
+tinyone navbar common code start
+===============*/
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size:16px;
+    font-weight:400;
+    color: #010101;
+}
+/*=============
+common code start
+===============*/
+
+
+/*=============
+header area start
+===============*/
+header, .section {
+    background-color: #fcdb00;
+    padding: 15px 0;
+}
+/*=============
+header area end
+===============*/
+
+.custom_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+    font-size:22px;
+    font-weight:700;
+    color:#010101 !important;
+    padding: 0 35px !important;
+}
+.menu ul li:last-child a{
+    padding-right:0 !important;
+}
+.menu ul li:hover a{
+    color: white !important;
+}
+
+
+/*second header*/
+.section{
+    margin-top: 15px;
+}
+
+/*=============
+tinyone navbar common code start
+===============*/
